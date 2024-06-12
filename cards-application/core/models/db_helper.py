@@ -6,7 +6,7 @@ from core.config import settings
 class DatabaseHelper:
     def __init__(
             self,
-            url,
+            url: str,
             echo: bool = False,
             echo_pool: bool = False,
             pool_size: int = 5,
